@@ -20,9 +20,9 @@ Uma família de ferramentas para criar, publicar e continuar o trabalho com IA.
 
 **[handoff-it](https://handoff-it.com/)** — Continuidade de contexto entre ferramentas e máquinas. Preserve conversas, decisões e próximos passos para retomar o trabalho com IA.
 
-<img src="assets/ebook-se.svg" width="100%" alt="ebook-se — Da ideia ao ebook, com IA." />
+<a href="https://ebook-fy.com/"><img src="assets/ebook-se.svg" width="100%" alt="ebook-se — Da ideia ao ebook, com IA. Conheça em ebook-fy.com." /></a>
 
-**ebook-se** — Criação de ebooks com IA: do tema e do público ao conteúdo, à identidade visual e a uma publicação paginada para ler e compartilhar.
+**[ebook-se](https://ebook-fy.com/)** — Criação de ebooks com IA: do tema e do público ao conteúdo, à identidade visual e a uma publicação paginada para ler e compartilhar.
 
 ## Como posso ajudar
 

@@ -83,5 +83,5 @@ def product(name, color, tagline, category, url=None):
 profile()
 product("public-it", "#E66113", "Sua IA cria. O public-it publica.", "PUBLICAÇÃO WEB", "public-it.com ↗")
 product("handoff-it", "#A65CFF", "Troque de ferramenta. Continue de onde parou.", "CONTINUIDADE DE CONTEXTO", "handoff-it.com ↗")
-product("ebook-se", "#00B3FF", "Da ideia ao ebook, com IA.", "CONTEÚDO E PUBLICAÇÃO")
+product("ebook-se", "#00B3FF", "Da ideia ao ebook, com IA.", "CONTEÚDO E PUBLICAÇÃO", "ebook-fy.com ↗")
 print("Generated profile.svg and three product cards.")
