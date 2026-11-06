@@ -8,6 +8,12 @@ Hoje, meu foco está em **transformação digital com IA**, liderança técnica 
 
 **[Portfólio e currículo](https://marciosalinodias.github.io/)** · **[Trabalhe comigo](https://marciosdias.public-it.com/)** · **[LinkedIn](https://www.linkedin.com/in/marcio-salino-dias)**
 
+## ApexCode
+
+<a href="https://apexcode.digital/"><img src="assets/apexcode.svg" width="100%" alt="ApexCode — Transformamos operações em sistemas inteligentes. Conheça em apexcode.digital." /></a>
+
+**[ApexCode](https://apexcode.digital/)** — Estratégia, transformação digital com IA e software sob medida para empresas em crescimento.
+
 ## Produtos que estou construindo
 
 Uma família de ferramentas para criar, publicar e continuar o trabalho com IA.
