@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="ebook-se-title">
+<title id="ebook-se-title">ebook-se — Da ideia ao ebook, com IA.</title>
+<defs>
+  <linearGradient id="ebook-se-bg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#111820"/><stop offset="1" stop-color="#0B1017"/></linearGradient>
+  <pattern id="ebook-se-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#00B3FF" stroke-opacity=".08"/></pattern>
+</defs>
+<rect x="1" y="1" width="1198" height="258" rx="21" fill="url(#ebook-se-bg)" stroke="#29323E"/>
+<rect x="1" y="22" width="4" height="216" rx="2" fill="#00B3FF"/>
+<rect x="864" y="1" width="335" height="258" rx="21" fill="url(#ebook-se-grid)"/>
+<rect x="942" y="39" width="181" height="181" rx="28" fill="#0E141D" stroke="#00B3FF" stroke-opacity=".35"/>
+<text x="43" y="46" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="400" fill="#00B3FF" letter-spacing="1.5">CONTEÚDO E PUBLICAÇÃO</text><text x="40" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700" fill="#F1F3F5" letter-spacing="-2">ebook-se</text><text x="44" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="400" fill="#C3CDD9" >Da ideia ao ebook, com IA.</text><text x="44" y="225" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" font-weight="400" fill="#94A3B4" >CRIAÇÃO DE EBOOKS COM IA</text><svg x="955" y="52" width="155" height="155" viewBox="0 0 192 192"><path xmlns="http://www.w3.org/2000/svg" d="M24,12L36,12L36,24L24,24L24,12Z M156,12L168,12L168,24L156,24L156,12Z M48,24L60,24L72,24L84,24L96,24L108,24L120,24L132,24L144,24L144,36L156,36L156,48L156,60L156,72L156,84L156,96L156,108L156,120L156,132L156,144L156,156L144,156L144,168L132,168L120,168L108,168L96,168L84,168L72,168L60,168L48,168L48,156L36,156L36,144L36,132L36,120L36,108L36,96L36,84L36,72L36,60L36,48L36,36L48,36L48,24Z M60,36L72,36L72,48L60,48L60,36Z M60,60L72,60L72,72L72,84L60,84L60,72L60,60Z M96,84L108,84L108,96L96,96L96,84Z M132,84L144,84L144,96L132,96L132,84Z M60,108L72,108L72,120L72,132L60,132L60,120L60,108Z M60,144L72,144L72,156L60,156L60,144Z M24,168L36,168L36,180L24,180L24,168Z M156,168L168,168L168,180L156,180L156,168Z" fill="#00B3FF" fill-rule="evenodd" />
+</svg>
+</svg>

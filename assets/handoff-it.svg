@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="handoff-it-title">
+<title id="handoff-it-title">handoff-it — Troque de ferramenta. Continue de onde parou.</title>
+<defs>
+  <linearGradient id="handoff-it-bg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#111820"/><stop offset="1" stop-color="#0B1017"/></linearGradient>
+  <pattern id="handoff-it-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#A65CFF" stroke-opacity=".08"/></pattern>
+</defs>
+<rect x="1" y="1" width="1198" height="258" rx="21" fill="url(#handoff-it-bg)" stroke="#29323E"/>
+<rect x="1" y="22" width="4" height="216" rx="2" fill="#A65CFF"/>
+<rect x="864" y="1" width="335" height="258" rx="21" fill="url(#handoff-it-grid)"/>
+<rect x="942" y="39" width="181" height="181" rx="28" fill="#0E141D" stroke="#A65CFF" stroke-opacity=".35"/>
+<text x="43" y="46" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="400" fill="#A65CFF" letter-spacing="1.5">CONTINUIDADE DE CONTEXTO</text><text x="40" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="700" fill="#F1F3F5" letter-spacing="-2">handoff-it</text><text x="44" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="400" fill="#C3CDD9" >Troque de ferramenta. Continue de onde parou.</text><text x="44" y="225" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="19" font-weight="400" fill="#94A3B4" >handoff-it.com ↗</text><svg x="955" y="52" width="155" height="155" viewBox="0 0 192 192"><g xmlns="http://www.w3.org/2000/svg" transform="translate(-6 6)"><path d="M24,48L36,48L36,60L24,60L24,48Z M168,48L180,48L180,60L168,60L168,48Z M48,60L60,60L72,60L84,60L84,72L84,84L96,84L96,96L84,96L84,108L96,108L96,120L84,120L72,120L60,120L48,120L48,108L36,108L36,96L36,84L36,72L48,72L48,60Z M108,60L120,60L132,60L144,60L156,60L156,72L168,72L168,84L168,96L168,108L156,108L156,120L144,120L132,120L120,120L120,108L120,96L108,96L108,84L120,84L120,72L108,72L108,60Z M60,84L72,84L72,96L60,96L60,84Z M132,84L144,84L144,96L132,96L132,84Z M24,120L36,120L36,132L24,132L24,120Z M168,120L180,120L180,132L168,132L168,120Z" fill="#8C00FF" fill-rule="evenodd" /></g>
+</svg>
+</svg>
