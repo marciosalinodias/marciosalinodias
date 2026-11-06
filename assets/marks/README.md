@@ -3,7 +3,6 @@
 Artes originais de Marcio Salino Dias e de seus produtos, reutilizadas sem alterar os desenhos:
 
 - `msd.svg`: assinatura MSD, opção 08, usada no site de serviços.
-- `apexcode.png`: exportação oficial de 512 px para fundo escuro, logo pack v1.0 da ApexCode.
 - `public-it.svg`: marca do public-it, logo pack v1.0.
 - `handoff-it.svg`: marca do handoff-it, logo pack v3.0.
 - `ebook-se.svg`: marca do ebook-se, logo pack v1.0.

@@ -1,9 +1,7 @@
 """Build the profile's static SVG artwork from the original product marks."""
 
 from html import escape
-from base64 import b64encode
 from pathlib import Path
-from struct import unpack
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -12,12 +10,6 @@ ET.register_namespace("", "http://www.w3.org/2000/svg")
 
 
 def mark(name, x, y, width, height):
-    png = ASSETS / "marks" / f"{name}.png"
-    if png.exists():
-        data = png.read_bytes()
-        source_width, source_height = unpack(">II", data[16:24])
-        encoded = b64encode(data).decode("ascii")
-        return f'<svg x="{x}" y="{y}" width="{width}" height="{height}" viewBox="0 0 {source_width} {source_height}"><image width="{source_width}" height="{source_height}" href="data:image/png;base64,{encoded}"/></svg>'
     source = ET.parse(ASSETS / "marks" / f"{name}.svg").getroot()
     for node in list(source):
         if node.tag.endswith("title"):
@@ -70,8 +62,7 @@ def profile():
     svg("profile", 400, "Marcio Salino Dias — arquitetura, IA e produtos. Mais de 17 anos em tecnologia.", body)
 
 
-def product(name, color, tagline, category, url=None, display_name=None):
-    label = display_name or name
+def product(name, color, tagline, category, url=None):
     body = f'''<defs>
   <linearGradient id="{name}-bg" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#111820"/><stop offset="1" stop-color="#0B1017"/></linearGradient>
   <pattern id="{name}-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="{color}" stroke-opacity=".08"/></pattern>
@@ -82,16 +73,15 @@ def product(name, color, tagline, category, url=None, display_name=None):
 <rect x="942" y="39" width="181" height="181" rx="28" fill="#0E141D" stroke="{color}" stroke-opacity=".35"/>
 '''
     body += text(43, 46, category, 15, color, mono=True, letter_spacing=1.5)
-    body += text(40, 120, label, 68, weight=700, letter_spacing=-2)
+    body += text(40, 120, name, 68, weight=700, letter_spacing=-2)
     body += text(44, 170, tagline, 30, "#C3CDD9")
     body += text(44, 225, url or "CRIAÇÃO DE EBOOKS COM IA", 19, "#94A3B4", mono=True)
     body += mark(name, 955, 52, 155, 155)
-    svg(name, 260, f"{label} — {tagline}", body)
+    svg(name, 260, f"{name} — {tagline}", body)
 
 
 profile()
 product("public-it", "#E66113", "Sua IA cria. O public-it publica.", "PUBLICAÇÃO WEB", "public-it.com ↗")
 product("handoff-it", "#A65CFF", "Troque de ferramenta. Continue de onde parou.", "CONTINUIDADE DE CONTEXTO", "handoff-it.com ↗")
 product("ebook-se", "#00B3FF", "Da ideia ao ebook, com IA.", "CONTEÚDO E PUBLICAÇÃO", "ebook-fy.com ↗")
-product("apexcode", "#8068FF", "Transformamos operações em sistemas inteligentes.", "ESTRATÉGIA, IA E SOFTWARE", "apexcode.digital ↗", display_name="ApexCode")
-print("Generated profile.svg and four showcase cards.")
+print("Generated profile.svg and three product cards.")
